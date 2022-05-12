@@ -13,19 +13,19 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "APP_ID": {
+    "TELEGRAM_API": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "API_HASH": {
+    "TELEGRAM_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "get this value from @BotFather",
       "value": ""
     },
-    "AUTH_CHANNEL": {
+    "USE_SERVICE_ACCOUNTS": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
       "value": ""
     },
@@ -33,50 +33,50 @@
       "description": "should be an integer. ID of owner of bot",
       "value": ""
     },
-    "UPLOAD_AS_DOC": {
+    "GDRIVE_FOLDER_ID": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "required": false
     },
-    "CHUNK_SIZE": {
+    "DOWNLOAD_DIR": {
       "description": "should be an integer",
       "value": "128",
       "required": false
     },
-    "ARIA_TWO_STARTED_PORT": {
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
       "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
       "value": "6800",
       "required": false
     },
-    "EDIT_SLEEP_TIME_OUT": {
+    "AUTO_DELETE_MESSAGE_DURATION": {
       "description": "should be an integer. Number of seconds to wait before editing a message.",
       "value": "15",
       "required": false
     },
-    "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
+    "IS_TEAM_DRIVE": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
       "required": false
     },
-    "FINISHED_PROGRESS_STR": {
+    "INDEX_URL": {
       "description": "should be a single character.",
       "required": false
     },
-    "UN_FINISHED_PROGRESS_STR": {
+    "USER_SESSION_STRING": {
       "description": "should be a single character.",
       "required": false
     },
-    "TG_OFFENSIVE_API": {
+    "MEGA_API_KEY": {
       "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
       "required": false
     },
-    "LEECH_COMMAND": {
+    "MEGA_EMAIL_ID": {
       "description": "Enter your custom leech command like /leech@botname and so on. Default is /leech",
       "required": false
     },
-    "SAVE_THUMBNAIL": {
+    "MEGA_PASSWORD": {
       "description": "For custom thumbnail Command. default is /savethumbnail",
       "required": false
     },
-    "CLEAR_THUMBNAIL": {
+    "STOP_DUPLICATE_MIRROR": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
       "required": false
     },
